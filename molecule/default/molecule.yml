@@ -8,9 +8,8 @@ lint:
   enabled: false
 platforms:
   - name: instance
-    image: solita/ubuntu-systemd:latest
+    image: ubuntu:18.04
     privileged: true
-    command: /sbin/init
 provisioner:
   name: ansible
   lint:

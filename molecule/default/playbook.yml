@@ -28,4 +28,4 @@
       changed_when: false
 
   roles:
-    - role: Ubuntu1604-CIS
+    - role: Ubuntu1804-CIS

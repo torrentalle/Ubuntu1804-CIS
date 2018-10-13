@@ -1,10 +1,10 @@
-Ubuntu 16.04 CIS STIG
+Ubuntu 16.08 CIS STIG
 ================
 
-[![Build Status](https://travis-ci.org/florianutz/Ubuntu1604-CIS.svg?branch=master)](https://travis-ci.org/florianutz/Ubuntu1604-CIS)
-[![Ansible Role](https://img.shields.io/badge/role-florianutz.Ubuntu1604--CIS-blue.svg)](https://galaxy.ansible.com/florianutz/Ubuntu1604-CIS/)
+[![Build Status](https://travis-ci.org/torrentalle/Ubuntu1804-CIS.svg?branch=master)](https://travis-ci.org/torrentalle/Ubuntu1604-CIS)
+[![Ansible Role](https://img.shields.io/badge/role-torrentalle.Ubuntu1804--CIS-blue.svg)](https://galaxy.ansible.com/torrentalle/Ubuntu1604-CIS/)
 
-Configure Ubuntu 16.04 machine to be CIS compliant. Level 1 and 2 findings will be corrected by default.
+Configure Ubuntu 18.04 machine to be CIS compliant. Level 1 and 2 findings will be corrected by default.
 
 This role **will make changes to the system** that could break things. This is not an auditing tool but rather a remediation tool to be used after an audit has been conducted.
 
@@ -17,12 +17,12 @@ If you want to install this via the `ansible-galaxy` command you'll need to run 
 With this in the file requirements.yml:
 
 ```
-- src: https://github.com/florianutz/Ubuntu1604-CIS.git
+- src: https://github.com/torrentalle/Ubuntu1804-CIS.git
 ```
 
-Based on [CIS Ubuntu Benchmark v1.1.0 - 12-28-2017 ](https://community.cisecurity.org/collab/public/index.php).
+Based on [CIS Ubuntu Benchmark v1.0.0 - 08-13-2018 ](https://www.cisecurity.org/benchmark/ubuntu_linux/) *WIP*.
 
-This repo originated from work done by [MindPointGroup](https://github.com/MindPointGroup/RHEL7-CIS)
+This repo originated from work done by [MindPointGroup](https://github.com/MindPointGroup/RHEL7-CIS) and [florianutz](https://github.com/florianutz/Ubuntu1604-CIS)
 
 Requirements
 ------------
